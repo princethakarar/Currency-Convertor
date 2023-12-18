@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #DEC3BE;
+}
+
+form{
+    background-color: #e1dee3c4;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.take-amount{
+    margin-top: 30px;
+}
+
+.take-amount label{
+    text-align: left;
+}
+
+.take-amount input{
+    width: 100%;
+}
